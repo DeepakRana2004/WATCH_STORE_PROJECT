@@ -1,0 +1,103 @@
+<%-include('header')%>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#">Watches Site</a>
+        <div class="search-container">
+            <form role="search" id="form">
+                <input type="search" id="query" name="q" placeholder="Search..">
+            </form>
+        </div>
+    </div>
+
+    <form action="/carts" method="post">
+      <div class="row">
+        <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" style="width: 18rem;">
+                <img src="images/smart watch1.jpg" class="card-img-top" alt="..." height="350px" width="200px">
+                <div class="card-body">
+                  <h5 class="card-title" name="movie-name" value="SMART WATCH 1">SMART WATCH 1</h5>
+                  <p class="card-text" name="movie-price" value="7">PRICE:Rs.7400/-</p>
+                  <button type="submit" class="btn btn-success" name="btn" value="FOSSIL WATCH">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/smart watch2.jpg" class="card-img-top" alt="..." height="350px" width="200px">
+              <div class="card-body">
+                <h5 class="card-title" name="movie-name" value="SMART WATCH 2">SMART WATCH 2</h5>
+                <p class="card-text" name="movie-price" value="7">PRICE:Rs.3900/-</p>
+                <button type="submit" class="btn btn-success" name="btn" value="GOLD WATCH">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/smart watch3.jpg" class="card-img-top" alt="..." height="350px" width="200px">
+              <div class="card-body">
+                <h5 class="card-title" name="movie-name" value="SMART WATCH 3">SMART WATCH 3</h5>
+                <p class="card-text" name="movie-price" value="7">PRICE:Rs.5400/-</p>
+                <button type="submit" class="btn btn-success" name="btn" value="ROLEX WATCH">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/smart watch4.jpg" class="card-img-top" alt="..." height="350px" width="200px">
+              <div class="card-body">
+                <h5 class="card-title" name="movie-name" value="SMART WATCH 4">SMART WATCH 4</h5>
+                <p class="card-text" name="movie-price" value="7">PRICE:Rs.8200/-</p>
+                <button type="submit" class="btn btn-success" name="btn" value="SILVER WATCH">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" style="width: 18rem;">
+              <img src="images/smart watch5.jpg" class="card-img-top" alt="..." height="350px" width="200px">
+              <div class="card-body">
+                <h5 class="card-title" name="movie-name" value="SMART WATCH 5">SMART WATCH 5</h5>
+                <p class="card-text" name="movie-price" value="7">PRICE:Rs.400/-</p>
+                <button type="submit" class="btn btn-success" name="btn" value="FASTTRACK WATCH">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/smart watch6.jpg" class="card-img-top" alt="..." height="350px" width="200px">
+              <div class="card-body">
+                <h5 class="card-title" name="movie-name" value="SMART WATCH 6">SMART WATCH 6</h5>
+                <p class="card-text" name="movie-price" value="7">PRICE:Rs.6000/-</p>
+                <button type="submit" class="btn btn-success" name="btn" value="TITAN WATCH">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/smart watch7.jpg" class="card-img-top" alt="..." height="350px" width="200px">
+              <div class="card-body">
+                <h5 class="card-title" name="movie-name" value="SMART WATCH 7">SMART WATCH 7</h5>
+                <p class="card-text" name="movie-price" value="7">PRICE:Rs.3488/-</p>
+                <button type="submit" class="btn btn-success" name="btn" value="WOMENS WATCH">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+              <img src="images/smart watch8.jpg" class="card-img-top" alt="..." height="350px" width="200px">
+              <div class="card-body">
+                <h5 class="card-title" name="movie-name" value="SMART WATCH 8">SMART WATCH 8</h5>
+                <p class="card-text" name="movie-price" value="7">PRICE:Rs.7600/-</p>
+                <button type="submit" class="btn btn-success" name="btn" value="DIAMOND WATCH">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+<%-include('footer')%>

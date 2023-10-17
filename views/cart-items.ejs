@@ -1,0 +1,36 @@
+<%- include("header") -%>
+
+<form action="/order" method="post">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Order</th>
+      </tr>
+    </thead>
+
+
+<% let i=0 %>
+
+<%    cartList.forEach(function(items) { %>
+<% i=i+1 %>
+
+        <tbody>
+          <tr>
+            <th scope="row"><%=i%></th>
+            <td><%=  items.id  %></td>
+            <td><%=  items.name  %></td>
+            <td><%=  items.price  %></td>
+            <td><button type="submit" class="btn btn-success" name="btn" value="<%=  items.name  %>">order</button></td>
+          </tr>
+        </tbody>
+
+<%   }) %>
+</table>
+</form>
+
+
+<%- include("footer") -%>

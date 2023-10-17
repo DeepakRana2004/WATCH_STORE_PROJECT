@@ -1,0 +1,90 @@
+<%-include('header')%>
+
+<body>
+    <header>
+        <form action="/options" method="post">
+            <h1>Welcome to Watch Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <!-- <li ><button class="link" type="submit" name="option" value="products">products</button></li> -->
+                <li><a href="options">products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </form>
+    </header>
+
+    <form action="/carts" method="post">
+            <div class="product">
+                <h2>Our Products</h2><br>
+                <center>
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/casualwatch.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">CASUAL MEN WATCH</h5>
+                          <p class="card-text">PRICE:Rs.5000/-</p>
+                          <button class="btn btn-success" type="submit" name="btn" value="CASUAL MEN WATCH">Add to Cart</button>
+                        </div>
+                    </div>
+                    <br>
+                </center>
+            </div>
+    </form>
+    <center>
+        <form action="/options" method="post">
+            <button type="submit" class="btn btn-success" name="option" value="casual-watches">more casual men watches</button>
+        </form>
+    </center>
+    <br>
+    <br>
+    <form action="/carts" method="post">
+        <div class="product">
+            <center>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/smart watch.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">SMART WATCH</h5>
+                      <p class="card-text">PRICE:Rs.3400/-</p>
+                      <button class="btn btn-success" type="submit" name="cart" value="SMART WATCH">Add to Cart</button>
+                    </div>
+                </div>
+                <br>
+            </center>
+        </div>
+    </form>
+    <center>
+        <form action="/options" method="post">
+            <button type="submit" class="btn btn-success" name="option" value="smart-watches">more smart watches</button>
+        </form>
+    </center>
+    <br>
+    <br>
+                
+
+    
+
+    <section id="home">
+        <h2>Explore Our Collection</h2>
+        <p>Discover a wide range of stylish and elegant watches.</p>
+        <a href="#products" class="cta-button">View Products</a>
+    </section>
+
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a passionate team dedicated to providing high-quality watches that make a statement.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to contact us:</p>
+        <address>
+            Email: <a href="mailto:21eg106b36@anurag.edu.in">21eg106b36@anurag.edu.in</a><br>
+            Phone: +91 8396334242<br>
+            Address: WATCH STREET , HYDERABAD.
+        </address>
+    </section>
+
+<%-include('footer')%>
